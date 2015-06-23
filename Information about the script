@@ -1,0 +1,23 @@
+The below points give you a brief points about the framework.
+  i) I have used the Hybrid frame work in developing the script
+  ii)There will be three packages in the script.
+  iii) Before running the script make sure that Excel sheet file path  which is present in MethodExtensions class in com.servicenow.test package is changes according to your location. 
+        Also make sure that the driver locations for Chrome and IE which are present in TestManager class are changes according to your location.
+  iv) After making these changes go to Triggers class present in com.servicenow.util package and run this class and this triggers entire flow.
+  
+  Below are the test cases covered as a part of this assignement.
+   i)Login in to application
+   ii)Creation of branch
+   iii)Creation of Staff
+   iv)Search for branch
+   v)Search for Staff
+   vi)Edit the branch information
+   vii)Edit the staff information
+   viii)Pageination
+   ix)View button
+   x)Logout
+   
+   Note:
+   1) Test cases iv to vii are covered in methods search_editbranch() and  search_editstaff() which are present in Triggers class.
+   Pageination and View button are covered in pageination_and_View() method of trigger class.
+  
