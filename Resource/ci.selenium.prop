@@ -1,0 +1,6 @@
+selenium.server.url=http://localhost:4444/wd/hub
+#browser.type=ie
+browser.type=firefox
+#browser.type=chrome
+browser.implicitWaitSecs=30
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="301298" started-at="2015-06-23T19:37:58Z" finished-at="2015-06-23T19:42:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="301298" started-at="2015-06-23T19:37:58Z" finished-at="2015-06-23T19:42:59Z">
+      <class name="com.servicenow.util.Triggers">
+        <test-method status="PASS" signature="setUpSelenium()[pri:0, instance:com.servicenow.util.Triggers@1bc6a36e]" name="setUpSelenium" is-config="true" duration-ms="10079" started-at="2015-06-23T21:37:58Z" finished-at="2015-06-23T21:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSelenium -->
+        <test-method status="PASS" signature="Main_prg()[pri:0, instance:com.servicenow.util.Triggers@1bc6a36e]" name="Main_prg" duration-ms="291199" started-at="2015-06-23T21:38:08Z" finished-at="2015-06-23T21:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Main_prg -->
+      </class> <!-- com.servicenow.util.Triggers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
