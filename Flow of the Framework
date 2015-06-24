@@ -1,4 +1,4 @@
-Trigger class is the main class which tiggers the entire flow of the framework.It contains the below methods. All these methods are present in MethodExtenssion class. 
+Trigger class is the main class which tiggers the entire flow of the framework.It contains all main methods. All these methods are present in MethodExtenssion class. 
 Trigger class extends the MethodExtension class. MethodExtension class extends the Baseselenium.
 
 Dig representation: Trigger---->MethodExtension---->Baseselenium.
@@ -8,19 +8,19 @@ Once the TestManger class launches the webbrowser.
 Now control passes back to the Trigger class and now below methods gets excuted inorder.All the steps regarding each method is present inthe MethodExtensions class.
 
 
-  Login()          : This Method launhces the URL and enter the valid input credentials and login into the application. All the data regarding the URL string, Login id and Password are stored in "Configuration.properties" file. All this data is read through "PropertiesFile1.java" class
+ Login()          : This Method launhces the URL and enter the valid input credentials and login into the application. All the data regarding the URL string, Login id and Password are stored in "Configuration.properties" file. All this data is read through "PropertiesFile1.java" class
                     By creating obj of that class in login method we use thos values here.
     
-  branchcreation() : This Method goes to the Branch section by clicking on Entities menu and fetches the data that are considered as input for creating the Branches from the Excel sheet present at the user location.
+ branchcreation() : This Method goes to the Branch section by clicking on Entities menu and fetches the data that are considered as input for creating the Branches from the Excel sheet present at the user location.
                      It Fecthes data till the end of the sheet.
-	staffcreation()  : This Method goes to the Staff section by clicking on Entities menu and fetches the data that are considered as input for creating the Staff members from the Excel sheet present at the user location.
+staffcreation()  : This Method goes to the Staff section by clicking on Entities menu and fetches the data that are considered as input for creating the Staff members from the Excel sheet present at the user location.
                      It Fecthes data till the end of the sheet.
-	search_editbranch() : In this method we perform two functionalities one is serach query for finding a branch and editing the same branch data.All the necessary data is present sheet2 of the excel sheet.
+search_editbranch() : In this method we perform two functionalities one is serach query for finding a branch and editing the same branch data.All the necessary data is present sheet2 of the excel sheet.
 	                    It fecthes the data from it and first it perfroms the search query of the required branch one the query is done then it edits the content of that branch. In this case it changes the Branch code.
-	search_editstaff() :In this method we perform two functionalities one is serach query for finding a staff and editing the same staff data.All the necessary data is present sheet3 of the excel sheet.
+search_editstaff() :In this method we perform two functionalities one is serach query for finding a staff and editing the same staff data.All the necessary data is present sheet3 of the excel sheet.
 	                    It fecthes the data from it and first it perfroms the search query of the required staff one the query is done then it edits the content of that staff. In this case it changes the Branch code
-	pageination_and_View(): Once the above method is completed we can see that pageination is enabled for staff and script make sure that forward and back ward buttons are working as expected.Once it is done it checks functionality of view button.
-	logout() : Logouts of the application.
+pageination_and_View(): Once the above method is completed we can see that pageination is enabled for staff and script make sure that forward and back ward buttons are working as expected.Once it is done it checks functionality of view button.
+logout() : Logouts of the application.
 	
-	Objrepositry: This package contains the classes which stores all the xpaths and id's of the object. So that eventhough the xpath of object changes we need to make change in that perticular class instead of entire script where we used this xpath's object.
+Objrepositry: This package contains the classes which stores all the xpaths and id's of the object. So that eventhough the xpath of object changes we need to make change in that perticular class instead of entire script where we used this xpath's object.
 	
