@@ -1,11 +1,9 @@
-The below points give you a brief points about the framework.
-  i) I have used the Hybrid frame work in developing the script written in Java on Eclipse. So, we have make sure that all the necessar Jar files are added before running the script
-  ii)There will be three packages in the script.
-  iii) Before running the script make sure that Excel sheet file path  which is present in "MethodExtensions" class in "com.servicenow.test" package is changes according to your location. 
-        Also make sure that the driver locations for Chrome and IE which are present in "TestManager" class are changes according to your location.
-  iv) After making these changes go to "Triggers" class present in "com.servicenow.util" package and run this class and this triggers entire flow.
-  
-  Below are the test cases covered as a part of this assignement.
+I have used the Hybrid frame work in developing the script. It is written in Java on Eclipse. So, we have make sure that all the necessar Jar files are added before running the script. I have attached all Jar files in the mail.
+There will be three packages in the script.
+Before running the script make sure that Excel sheet file path  which is present in "MethodExtensions" class in "com.servicenow.test" package is changes according to your location. The Excel sheet which contians the test data is attached in the mail.
+Also make sure that the driver locations for Chrome and IE which are present in "TestManager" class are changes according to your location.
+After making these changes go to "Triggers" class present in "com.servicenow.util" package and run this class and this triggers entire flow.
+Below are the test cases covered as a part of this assignement.
    i)Login in to application
    ii)Creation of branch
    iii)Creation of Staff
